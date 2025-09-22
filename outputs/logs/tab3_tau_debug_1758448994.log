@@ -1,0 +1,11 @@
+[tab3][19:03:14] params: kind=CNN, win=60, stdz=True
+[tab3][19:03:14] indices: aligned=1194, period=2020-12-17 00:00:00→2025-09-19 00:00:00
+[tab3][19:03:14] X shape=(1194, 120), D1/D0 notna=(1194/1194)
+[tab3][19:03:14] split: X1_tr=(955, 120), X1_te=(239, 120), X0_tr=(955, 120), X0_te=(239, 120)
+[tab3][19:03:14] models: tau1=KerasSeqRegressor, tau0=KerasSeqRegressor
+[tab3][19:03:23] fit_time: tau1=4.968s, tau0=4.635s
+[tab3][19:03:24] pred std: tau1=0.031420, tau0=0.008064
+[tab3][19:03:24] pred head: tau1={Timestamp('2020-12-17 00:00:00'): -0.05405634269118309, Timestamp('2020-12-18 00:00:00'): -0.06375917047262192, Timestamp('2020-12-21 00:00:00'): -0.05672335624694824} | tau0={Timestamp('2020-12-17 00:00:00'): 0.0021296516060829163, Timestamp('2020-12-18 00:00:00'): 0.0018965675262734294, Timestamp('2020-12-21 00:00:00'): 0.000565033289603889}
+[tab3][19:03:24] classifier=LogisticRegression, fit_time=0.074s, e-mean=0.5020, e-std=0.1847
+[tab3][19:03:24] metrics: mean_e=0.5020, std_e=0.1847, corr_tau_muGap=0.3565, mean_tau=-0.00519, std_tau=0.01895
+[tab3][19:03:24] saved debug tau/e: outputs/tab3/tau_debug_1758449004.csv, shape=(300, 4)

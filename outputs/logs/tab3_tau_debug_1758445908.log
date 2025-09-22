@@ -1,0 +1,22 @@
+[tab3][18:11:48] params: kind=LSTM, win=60, stdz=True
+[tab3][18:11:48] indices: aligned=1194, period=2020-12-17 00:00:00→2025-09-19 00:00:00
+[tab3][18:11:48] params: kind=LSTM, win=60, stdz=True
+[tab3][18:11:48] indices: aligned=1194, period=2020-12-17 00:00:00→2025-09-19 00:00:00
+[tab3][18:11:48] X shape=(1194, 120), D1/D0 notna=(1194/1194)
+[tab3][18:11:48] split: X1_tr=(955, 120), X1_te=(239, 120), X0_tr=(955, 120), X0_te=(239, 120)
+[tab3][18:11:48] X shape=(1194, 120), D1/D0 notna=(1194/1194)
+[tab3][18:11:48] models: tau1=MLPRegressor, tau0=MLPRegressor
+[tab3][18:11:48] split: X1_tr=(955, 120), X1_te=(239, 120), X0_tr=(955, 120), X0_te=(239, 120)
+[tab3][18:11:48] models: tau1=MLPRegressor, tau0=MLPRegressor
+[tab3][18:11:50] fit_time: tau1=1.127s, tau0=0.997s
+[tab3][18:11:50] pred std: tau1=0.127234, tau0=0.127954
+[tab3][18:11:50] fit_time: tau1=1.161s, tau0=1.020s
+[tab3][18:11:50] pred head: tau1={Timestamp('2020-12-17 00:00:00'): 0.011156696068341757, Timestamp('2020-12-18 00:00:00'): -0.013630701842635692, Timestamp('2020-12-21 00:00:00'): -0.03658736549858009} | tau0={Timestamp('2020-12-17 00:00:00'): -0.008065677195138066, Timestamp('2020-12-18 00:00:00'): 0.011860754609934132, Timestamp('2020-12-21 00:00:00'): 0.030165270073576333}
+[tab3][18:11:50] classifier=LogisticRegression, fit_time=0.014s, e-mean=0.4945, e-std=0.1700
+[tab3][18:11:50] pred std: tau1=0.127234, tau0=0.127954
+[tab3][18:11:50] pred head: tau1={Timestamp('2020-12-17 00:00:00'): 0.011156696068341757, Timestamp('2020-12-18 00:00:00'): -0.013630701842635692, Timestamp('2020-12-21 00:00:00'): -0.03658736549858009} | tau0={Timestamp('2020-12-17 00:00:00'): -0.008065677195138066, Timestamp('2020-12-18 00:00:00'): 0.011860754609934132, Timestamp('2020-12-21 00:00:00'): 0.030165270073576333}
+[tab3][18:11:50] metrics: mean_e=0.4945, std_e=0.1700, corr_tau_muGap=0.0105, mean_tau=0.00540, std_tau=0.12156
+[tab3][18:11:50] classifier=LogisticRegression, fit_time=0.009s, e-mean=0.4945, e-std=0.1700
+[tab3][18:11:50] metrics: mean_e=0.4945, std_e=0.1700, corr_tau_muGap=0.0105, mean_tau=0.00540, std_tau=0.12156
+[tab3][18:11:50] saved debug tau/e: outputs/tab3/tau_debug_1758445910.csv, shape=(300, 4)
+[tab3][18:11:50] saved debug tau/e: outputs/tab3/tau_debug_1758445910.csv, shape=(300, 4)

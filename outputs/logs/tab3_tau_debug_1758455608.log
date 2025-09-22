@@ -1,0 +1,11 @@
+[tab3][20:53:28] params: kind=LSTM, win=60, stdz=True
+[tab3][20:53:28] indices: aligned=1087, period=2021-05-24 00:00:00→2025-09-19 00:00:00
+[tab3][20:53:28] X shape=(1087, 180), D1/D0 notna=(1087/1087)
+[tab3][20:53:28] split: X1_tr=(869, 180), X1_te=(218, 180), X0_tr=(869, 180), X0_te=(218, 180)
+[tab3][20:53:28] models: tau1=KerasSeqRegressor, tau0=KerasSeqRegressor
+[tab3][20:53:44] fit_time: tau1=8.109s, tau0=8.402s
+[tab3][20:53:45] pred std: tau1=0.088285, tau0=0.034521
+[tab3][20:53:45] pred head: tau1={Timestamp('2021-05-24 00:00:00'): -0.0026137542445212603, Timestamp('2021-05-25 00:00:00'): -0.04660412669181824, Timestamp('2021-05-26 00:00:00'): 0.00905641820281744} | tau0={Timestamp('2021-05-24 00:00:00'): -0.030097920447587967, Timestamp('2021-05-25 00:00:00'): 0.017539650201797485, Timestamp('2021-05-26 00:00:00'): -0.0023208456113934517}
+[tab3][20:53:45] classifier=LogisticRegression, fit_time=0.457s, e-mean=0.5152, e-std=0.2109
+[tab3][20:53:46] metrics: mean_e=0.5152, std_e=0.2109, corr_tau_muGap=0.8174, mean_tau=0.00660, std_tau=0.04708
+[tab3][20:53:46] saved debug tau/e: outputs/tab3/tau_debug_1758455626.csv, shape=(300, 4)

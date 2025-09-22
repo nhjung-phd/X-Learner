@@ -1,0 +1,11 @@
+[tab3][18:00:41] params: kind=LGBM, win=60, stdz=True
+[tab3][18:00:41] indices: aligned=1194, period=2020-12-17 00:00:00→2025-09-19 00:00:00
+[tab3][18:00:41] X shape=(1194, 120), D1/D0 notna=(1194/1194)
+[tab3][18:00:41] split: X1_tr=(955, 120), X1_te=(239, 120), X0_tr=(955, 120), X0_te=(239, 120)
+[tab3][18:00:41] models: tau1=LGBMRegressor, tau0=LGBMRegressor
+[tab3][18:00:42] fit_time: tau1=0.265s, tau0=0.220s
+[tab3][18:00:42] pred std: tau1=0.027514, tau0=0.013005
+[tab3][18:00:42] pred head: tau1={Timestamp('2020-12-17 00:00:00'): -0.020909387190752398, Timestamp('2020-12-18 00:00:00'): -0.03613158653676683, Timestamp('2020-12-21 00:00:00'): -0.06527800914510026} | tau0={Timestamp('2020-12-17 00:00:00'): -0.01415369307217363, Timestamp('2020-12-18 00:00:00'): 0.0010509979476149194, Timestamp('2020-12-21 00:00:00'): 0.02405484006249062}
+[tab3][18:00:42] classifier=LGBMClassifier, fit_time=0.218s, e-mean=0.5023, e-std=0.1335
+[tab3][18:00:42] metrics: mean_e=0.5023, std_e=0.1335, corr_tau_muGap=0.7689, mean_tau=-0.00135, std_tau=0.01502
+[tab3][18:00:42] saved debug tau/e: outputs/tab3/tau_debug_1758445242.csv, shape=(300, 4)
